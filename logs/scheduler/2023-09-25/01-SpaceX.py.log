@@ -1,0 +1,354 @@
+[2023-09-25T14:07:17.681+0000] {processor.py:157} INFO - Started process (PID=741) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:07:17.686+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:07:17.788+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:07:17.784+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:07:18.040+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:07:18.818+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:07:18.818+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-25T14:07:18.835+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:07:18.835+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-25T14:07:18.845+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:07:18.844+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-25T14:07:18.846+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:07:18.846+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:01-SpaceX' as access control is unset.
+[2023-09-25T14:07:18.848+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:07:18.847+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:07:18.888+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:07:18.887+0000] {dag.py:2937} INFO - Creating ORM DAG for 01-SpaceX
+[2023-09-25T14:07:18.919+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:07:18.918+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-25T14:07:18.957+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 1.318 seconds
+[2023-09-25T14:07:49.348+0000] {processor.py:157} INFO - Started process (PID=749) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:07:49.350+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:07:49.356+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:07:49.355+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:07:49.419+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:07:49.459+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:07:49.459+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:07:49.497+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:07:49.496+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-25T14:07:49.534+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.191 seconds
+[2023-09-25T14:08:19.726+0000] {processor.py:157} INFO - Started process (PID=757) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:08:19.728+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:08:19.733+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:08:19.732+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:08:19.792+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:08:19.838+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:08:19.838+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:08:19.869+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:08:19.868+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-25T14:08:19.893+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.170 seconds
+[2023-09-25T14:08:50.271+0000] {processor.py:157} INFO - Started process (PID=765) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:08:50.272+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:08:50.276+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:08:50.276+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:08:50.333+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:08:50.367+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:08:50.367+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:08:50.422+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.154 seconds
+[2023-09-25T14:09:20.618+0000] {processor.py:157} INFO - Started process (PID=773) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:09:20.620+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:09:20.624+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:09:20.624+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:09:20.684+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:09:20.718+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:09:20.718+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:09:20.768+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.154 seconds
+[2023-09-25T14:09:50.996+0000] {processor.py:157} INFO - Started process (PID=781) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:09:50.998+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:09:51.002+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:09:51.002+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:09:51.066+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:09:51.104+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:09:51.104+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:09:51.168+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.176 seconds
+[2023-09-25T14:10:21.466+0000] {processor.py:157} INFO - Started process (PID=789) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:10:21.468+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:10:21.474+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:10:21.473+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:10:21.539+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:10:21.583+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:10:21.583+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:10:21.643+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.181 seconds
+[2023-09-25T14:10:51.863+0000] {processor.py:157} INFO - Started process (PID=797) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:10:51.864+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:10:51.872+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:10:51.872+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:10:51.926+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:10:51.964+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:10:51.964+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:10:52.015+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.155 seconds
+[2023-09-25T14:11:22.316+0000] {processor.py:157} INFO - Started process (PID=805) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:11:22.318+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:11:22.320+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:11:22.320+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:11:22.370+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:11:22.405+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:11:22.405+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:11:22.450+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.138 seconds
+[2023-09-25T14:11:52.768+0000] {processor.py:157} INFO - Started process (PID=813) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:11:52.770+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:11:52.776+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:11:52.776+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:11:52.852+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:11:52.907+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:11:52.906+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:11:53.001+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.245 seconds
+[2023-09-25T14:12:23.441+0000] {processor.py:157} INFO - Started process (PID=821) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:12:23.443+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:12:23.445+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:12:23.445+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:12:23.491+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:12:23.521+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:12:23.521+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:12:23.585+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.148 seconds
+[2023-09-25T14:12:53.737+0000] {processor.py:157} INFO - Started process (PID=829) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:12:53.739+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:12:53.743+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:12:53.742+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:12:53.797+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:12:53.832+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:12:53.832+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:12:53.893+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.160 seconds
+[2023-09-25T14:13:24.079+0000] {processor.py:157} INFO - Started process (PID=837) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:13:24.080+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:13:24.083+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:13:24.083+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:13:24.160+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:13:24.240+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:13:24.240+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:13:24.290+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.214 seconds
+[2023-09-25T14:13:54.557+0000] {processor.py:157} INFO - Started process (PID=846) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:13:54.559+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:13:54.562+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:13:54.562+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:13:54.631+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:13:54.674+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:13:54.674+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:13:54.725+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.171 seconds
+[2023-09-25T14:14:24.956+0000] {processor.py:157} INFO - Started process (PID=854) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:14:24.957+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:14:24.960+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:14:24.960+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:14:25.023+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:14:25.056+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:14:25.056+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:14:25.096+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.143 seconds
+[2023-09-25T14:14:55.360+0000] {processor.py:157} INFO - Started process (PID=862) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:14:55.361+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:14:55.366+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:14:55.366+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:14:55.419+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:14:55.453+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:14:55.453+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:14:55.502+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.146 seconds
+[2023-09-25T14:15:25.767+0000] {processor.py:157} INFO - Started process (PID=870) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:15:25.769+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:15:25.772+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:15:25.772+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:15:25.830+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:15:25.865+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:15:25.865+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:15:25.892+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:15:25.892+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to None, run_after=None
+[2023-09-25T14:15:25.928+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.164 seconds
+[2023-09-25T14:15:56.126+0000] {processor.py:157} INFO - Started process (PID=878) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:15:56.128+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:15:56.131+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:15:56.131+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:15:56.184+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:15:56.221+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:15:56.221+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:15:56.245+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:15:56.245+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to None, run_after=None
+[2023-09-25T14:15:56.267+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.145 seconds
+[2023-09-25T14:16:26.478+0000] {processor.py:157} INFO - Started process (PID=887) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:16:26.480+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:16:26.484+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:16:26.484+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:16:26.552+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:16:26.585+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:16:26.585+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:16:26.614+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:16:26.613+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to None, run_after=None
+[2023-09-25T14:16:26.641+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.169 seconds
+[2023-09-25T14:16:56.994+0000] {processor.py:157} INFO - Started process (PID=895) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:16:56.996+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:16:57.001+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:16:57.000+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:16:57.058+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:16:57.094+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:16:57.094+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:16:57.121+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:16:57.121+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to None, run_after=None
+[2023-09-25T14:16:57.148+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.159 seconds
+[2023-09-25T14:17:27.430+0000] {processor.py:157} INFO - Started process (PID=903) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:17:27.431+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:17:27.433+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:17:27.433+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:17:27.478+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:17:27.517+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:17:27.517+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:17:27.539+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:17:27.539+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to None, run_after=None
+[2023-09-25T14:17:27.561+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.135 seconds
+[2023-09-25T14:17:57.802+0000] {processor.py:157} INFO - Started process (PID=911) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:17:57.803+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:17:57.806+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:17:57.806+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:17:57.861+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:17:57.894+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:17:57.894+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:17:57.920+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:17:57.920+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to None, run_after=None
+[2023-09-25T14:17:57.950+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.152 seconds
+[2023-09-25T14:18:28.249+0000] {processor.py:157} INFO - Started process (PID=919) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:18:28.250+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:18:28.253+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:18:28.252+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:18:28.300+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:18:28.340+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:18:28.339+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:18:28.364+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:18:28.364+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to None, run_after=None
+[2023-09-25T14:18:28.390+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.145 seconds
+[2023-09-25T14:18:58.807+0000] {processor.py:157} INFO - Started process (PID=927) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:18:58.809+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:18:58.811+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:18:58.811+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:18:58.857+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:18:58.885+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:18:58.885+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:18:58.910+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:18:58.909+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to None, run_after=None
+[2023-09-25T14:18:58.943+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.139 seconds
+[2023-09-25T14:19:29.192+0000] {processor.py:157} INFO - Started process (PID=935) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:19:29.194+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:19:29.197+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:19:29.197+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:19:29.244+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:19:29.271+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:19:29.271+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:19:29.293+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:19:29.293+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to None, run_after=None
+[2023-09-25T14:19:29.320+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.141 seconds
+[2023-09-25T14:19:59.556+0000] {processor.py:157} INFO - Started process (PID=944) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:19:59.558+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:19:59.562+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:19:59.561+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:19:59.612+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:19:59.641+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:19:59.641+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:19:59.668+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:19:59.667+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to None, run_after=None
+[2023-09-25T14:19:59.700+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.148 seconds
+[2023-09-25T14:20:29.904+0000] {processor.py:157} INFO - Started process (PID=952) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:20:29.905+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:20:29.912+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:20:29.911+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:20:29.969+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:20:30.015+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:20:30.014+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:20:30.060+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:20:30.059+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to None, run_after=None
+[2023-09-25T14:20:30.095+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.195 seconds
+[2023-09-25T14:21:00.236+0000] {processor.py:157} INFO - Started process (PID=960) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:21:00.238+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:21:00.241+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:21:00.241+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:21:00.301+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:21:00.356+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:21:00.355+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:21:00.392+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:21:00.391+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to None, run_after=None
+[2023-09-25T14:21:00.462+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.231 seconds
+[2023-09-25T14:21:30.672+0000] {processor.py:157} INFO - Started process (PID=968) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:21:30.674+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:21:30.679+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:21:30.678+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:21:30.730+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:21:30.760+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:21:30.759+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:21:30.789+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:21:30.789+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to None, run_after=None
+[2023-09-25T14:21:30.820+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.151 seconds
+[2023-09-25T14:22:01.081+0000] {processor.py:157} INFO - Started process (PID=976) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:22:01.084+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:22:01.091+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:22:01.090+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:22:01.179+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:22:01.259+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:22:01.259+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:22:01.322+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:22:01.321+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to None, run_after=None
+[2023-09-25T14:22:01.382+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.308 seconds
+[2023-09-25T14:22:31.828+0000] {processor.py:157} INFO - Started process (PID=984) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:22:31.830+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:22:31.833+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:22:31.833+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:22:31.891+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:22:31.927+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:22:31.926+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:22:31.954+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:22:31.954+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to None, run_after=None
+[2023-09-25T14:22:31.979+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.155 seconds
+[2023-09-25T14:23:02.184+0000] {processor.py:157} INFO - Started process (PID=992) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:23:02.186+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:23:02.192+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:23:02.191+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:23:02.280+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:23:02.353+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:23:02.352+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:23:02.407+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:23:02.407+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to None, run_after=None
+[2023-09-25T14:23:02.454+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.274 seconds
+[2023-09-25T14:23:32.589+0000] {processor.py:157} INFO - Started process (PID=1000) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:23:32.590+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:23:32.593+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:23:32.593+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:23:32.642+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:23:32.678+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:23:32.678+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:23:32.700+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:23:32.700+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to None, run_after=None
+[2023-09-25T14:23:32.728+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.142 seconds
+[2023-09-25T14:24:03.056+0000] {processor.py:157} INFO - Started process (PID=1008) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:24:03.057+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:24:03.061+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:24:03.060+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:24:03.114+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:24:03.144+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:24:03.144+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:24:03.167+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:24:03.166+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to None, run_after=None
+[2023-09-25T14:24:03.190+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.138 seconds
+[2023-09-25T14:24:33.331+0000] {processor.py:157} INFO - Started process (PID=1016) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:24:33.332+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:24:33.336+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:24:33.335+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:24:33.420+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:24:33.559+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:24:33.558+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:24:33.619+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:24:33.619+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to None, run_after=None
+[2023-09-25T14:24:33.651+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.324 seconds
+[2023-09-25T14:25:03.998+0000] {processor.py:157} INFO - Started process (PID=1024) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:25:04.000+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:25:04.002+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:25:04.002+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:25:04.059+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:25:04.092+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:25:04.092+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:25:04.116+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:25:04.115+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to None, run_after=None
+[2023-09-25T14:25:04.139+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.143 seconds
+[2023-09-25T14:25:34.362+0000] {processor.py:157} INFO - Started process (PID=1032) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:25:34.363+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:25:34.366+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:25:34.366+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:25:34.414+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:25:34.461+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:25:34.460+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:25:34.484+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:25:34.484+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to None, run_after=None
+[2023-09-25T14:25:34.515+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.157 seconds
+[2023-09-25T14:26:04.812+0000] {processor.py:157} INFO - Started process (PID=1040) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:26:04.813+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:26:04.816+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:26:04.816+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:26:04.891+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:26:04.970+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:26:04.970+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:26:05.004+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:26:05.004+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to None, run_after=None
+[2023-09-25T14:26:05.044+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.236 seconds
+[2023-09-25T14:26:35.183+0000] {processor.py:157} INFO - Started process (PID=1048) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:26:35.185+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:26:35.187+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:26:35.187+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:26:35.239+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:26:35.275+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:26:35.275+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:26:35.297+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:26:35.297+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to None, run_after=None
+[2023-09-25T14:26:35.321+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.141 seconds
+[2023-09-25T14:27:05.540+0000] {processor.py:157} INFO - Started process (PID=1056) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:27:05.541+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:27:05.544+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:27:05.543+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:27:05.601+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:27:05.642+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:27:05.641+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:27:05.669+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:27:05.669+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to None, run_after=None
+[2023-09-25T14:27:05.695+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.158 seconds
+[2023-09-25T14:27:23.906+0000] {processor.py:157} INFO - Started process (PID=1064) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:27:23.907+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:27:23.911+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:27:23.911+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:27:24.003+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:27:24.477+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:27:24.477+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:01-SpaceX' as access control is unset.
+[2023-09-25T14:27:24.478+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:27:24.478+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:27:24.506+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:27:24.505+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to None, run_after=None
+[2023-09-25T14:27:24.549+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.646 seconds
+[2023-09-25T14:27:55.003+0000] {processor.py:157} INFO - Started process (PID=1072) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:27:55.004+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:27:55.008+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:27:55.008+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:27:55.073+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:27:55.110+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:27:55.110+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:27:55.135+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:27:55.135+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to None, run_after=None
+[2023-09-25T14:27:55.162+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.163 seconds
+[2023-09-25T14:28:25.336+0000] {processor.py:157} INFO - Started process (PID=1081) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:28:25.338+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:28:25.342+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:28:25.342+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:28:25.406+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:28:25.456+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:28:25.455+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:28:25.495+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:28:25.494+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to None, run_after=None
+[2023-09-25T14:28:25.527+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.195 seconds
+[2023-09-25T14:28:55.861+0000] {processor.py:157} INFO - Started process (PID=1089) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:28:55.863+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:28:55.868+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:28:55.868+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:28:55.924+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:28:55.982+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:28:55.982+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:28:56.012+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:28:56.012+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to None, run_after=None
+[2023-09-25T14:28:56.039+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.182 seconds
+[2023-09-25T14:29:26.243+0000] {processor.py:157} INFO - Started process (PID=1097) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:29:26.244+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:29:26.248+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:29:26.247+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:29:26.309+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:29:26.393+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:29:26.393+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:29:26.431+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:29:26.430+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to None, run_after=None
+[2023-09-25T14:29:26.470+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.231 seconds
+[2023-09-25T14:29:56.862+0000] {processor.py:157} INFO - Started process (PID=1105) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:29:56.870+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:29:56.883+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:29:56.882+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:29:57.101+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:29:57.156+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:29:57.156+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:29:57.196+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:29:57.196+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to None, run_after=None
+[2023-09-25T14:29:57.241+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.387 seconds
+[2023-09-25T14:30:27.769+0000] {processor.py:157} INFO - Started process (PID=1113) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:30:27.770+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:30:27.774+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:30:27.773+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:30:27.839+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:30:28.099+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:30:28.099+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:01-SpaceX' as access control is unset.
+[2023-09-25T14:30:28.100+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:30:28.100+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:30:28.113+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:30:28.112+0000] {dag.py:2937} INFO - Creating ORM DAG for 01-SpaceX
+[2023-09-25T14:30:28.129+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:30:28.128+0000] {dag.py:3696} INFO - Setting next_dagrun for 01-SpaceX to 2023-09-01T00:00:00+00:00, run_after=2023-09-02T00:00:00+00:00
+[2023-09-25T14:30:28.155+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.391 seconds
+[2023-09-25T14:30:58.502+0000] {processor.py:157} INFO - Started process (PID=1121) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:30:58.504+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:30:58.507+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:30:58.507+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:30:58.575+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:30:58.622+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:30:58.622+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:30:58.673+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.175 seconds
+[2023-09-25T14:31:28.930+0000] {processor.py:157} INFO - Started process (PID=1129) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:31:28.932+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:31:28.941+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:31:28.937+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:31:29.014+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:31:29.075+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:31:29.074+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:31:29.129+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.209 seconds
+[2023-09-25T14:31:59.357+0000] {processor.py:157} INFO - Started process (PID=1138) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:31:59.360+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:31:59.363+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:31:59.363+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:31:59.444+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:31:59.504+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:31:59.504+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:31:59.570+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.219 seconds
+[2023-09-25T14:32:29.800+0000] {processor.py:157} INFO - Started process (PID=1146) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:32:29.802+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:32:29.806+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:32:29.805+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:32:29.878+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:32:29.927+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:32:29.927+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:32:29.985+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.191 seconds
+[2023-09-25T14:33:00.328+0000] {processor.py:157} INFO - Started process (PID=1154) to work on /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:33:00.329+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/01-SpaceX.py for tasks to queue
+[2023-09-25T14:33:00.334+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:33:00.333+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:33:00.395+0000] {processor.py:839} INFO - DAG(s) dict_keys(['01-SpaceX']) retrieved from /opt/airflow/dags/01-SpaceX.py
+[2023-09-25T14:33:00.444+0000] {logging_mixin.py:151} INFO - [2023-09-25T14:33:00.443+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-25T14:33:00.498+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/01-SpaceX.py took 0.175 seconds

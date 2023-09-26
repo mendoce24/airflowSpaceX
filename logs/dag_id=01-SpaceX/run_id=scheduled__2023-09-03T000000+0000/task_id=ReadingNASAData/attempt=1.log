@@ -1,0 +1,119 @@
+[2023-09-26T09:07:54.025+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 01-SpaceX.ReadingNASAData scheduled__2023-09-03T00:00:00+00:00 [queued]>
+[2023-09-26T09:07:54.039+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 01-SpaceX.ReadingNASAData scheduled__2023-09-03T00:00:00+00:00 [queued]>
+[2023-09-26T09:07:54.039+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 3
+[2023-09-26T09:07:54.056+0000] {taskinstance.py:1380} INFO - Executing <Task(BashOperator): ReadingNASAData> on 2023-09-03 00:00:00+00:00
+[2023-09-26T09:07:54.064+0000] {standard_task_runner.py:57} INFO - Started process 119 to run task
+[2023-09-26T09:07:54.068+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', '01-SpaceX', 'ReadingNASAData', 'scheduled__2023-09-03T00:00:00+00:00', '--job-id', '41', '--raw', '--subdir', 'DAGS_FOLDER/01-SpaceX.py', '--cfg-path', '/tmp/tmpnei4gxzv']
+[2023-09-26T09:07:54.070+0000] {standard_task_runner.py:85} INFO - Job 41: Subtask ReadingNASAData
+[2023-09-26T09:07:54.129+0000] {task_command.py:415} INFO - Running <TaskInstance: 01-SpaceX.ReadingNASAData scheduled__2023-09-03T00:00:00+00:00 [running]> on host b8f985bf58b5
+[2023-09-26T09:07:54.230+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='01-SpaceX' AIRFLOW_CTX_TASK_ID='ReadingNASAData' AIRFLOW_CTX_EXECUTION_DATE='2023-09-03T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-03T00:00:00+00:00'
+[2023-09-26T09:07:54.233+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-09-26T09:07:54.234+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'ls /tmp && head /tmp/response_20230903.txt']
+[2023-09-26T09:07:54.249+0000] {subprocess.py:86} INFO - Output:
+[2023-09-26T09:07:54.254+0000] {subprocess.py:93} INFO - ***tmpuccimpn4
+[2023-09-26T09:07:54.255+0000] {subprocess.py:93} INFO - history.json
+[2023-09-26T09:07:54.256+0000] {subprocess.py:93} INFO - pymp-9yi0wu8l
+[2023-09-26T09:07:54.257+0000] {subprocess.py:93} INFO - response_20230901.txt
+[2023-09-26T09:07:54.258+0000] {subprocess.py:93} INFO - response_20230902.txt
+[2023-09-26T09:07:54.258+0000] {subprocess.py:93} INFO - response_20230903.txt
+[2023-09-26T09:07:54.259+0000] {subprocess.py:93} INFO - response_20230904.txt
+[2023-09-26T09:07:54.260+0000] {subprocess.py:93} INFO - response_20230905.txt
+[2023-09-26T09:07:54.261+0000] {subprocess.py:93} INFO - response_20230906.txt
+[2023-09-26T09:07:54.261+0000] {subprocess.py:93} INFO - response_20230907.txt
+[2023-09-26T09:07:54.262+0000] {subprocess.py:93} INFO - response_20230908.txt
+[2023-09-26T09:07:54.264+0000] {subprocess.py:93} INFO - response_20230909.txt
+[2023-09-26T09:07:54.265+0000] {subprocess.py:93} INFO - response_20230910.txt
+[2023-09-26T09:07:54.266+0000] {subprocess.py:93} INFO - response_20230911.txt
+[2023-09-26T09:07:54.267+0000] {subprocess.py:93} INFO - response_20230912.txt
+[2023-09-26T09:07:54.268+0000] {subprocess.py:93} INFO - response_20230913.txt
+[2023-09-26T09:07:54.268+0000] {subprocess.py:93} INFO - response_20230914.txt
+[2023-09-26T09:07:54.270+0000] {subprocess.py:93} INFO - response_20230915.txt
+[2023-09-26T09:07:54.271+0000] {subprocess.py:93} INFO - response_20230916.txt
+[2023-09-26T09:07:54.272+0000] {subprocess.py:93} INFO - response_20230917.txt
+[2023-09-26T09:07:54.273+0000] {subprocess.py:93} INFO - response_20230918.txt
+[2023-09-26T09:07:54.273+0000] {subprocess.py:93} INFO - tmpfgysybgv
+[2023-09-26T09:07:54.274+0000] {subprocess.py:93} INFO - OK
+[2023-09-26T09:07:54.275+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-09-26T09:07:54.314+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=01-SpaceX, task_id=ReadingNASAData, execution_date=20230903T000000, start_date=20230926T090754, end_date=20230926T090754
+[2023-09-26T09:07:54.361+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-09-26T09:07:54.399+0000] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-09-26T12:03:56.035+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 01-SpaceX.ReadingNASAData scheduled__2023-09-03T00:00:00+00:00 [queued]>
+[2023-09-26T12:03:56.046+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 01-SpaceX.ReadingNASAData scheduled__2023-09-03T00:00:00+00:00 [queued]>
+[2023-09-26T12:03:56.047+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 3
+[2023-09-26T12:03:56.066+0000] {taskinstance.py:1380} INFO - Executing <Task(BashOperator): ReadingNASAData> on 2023-09-03 00:00:00+00:00
+[2023-09-26T12:03:56.073+0000] {standard_task_runner.py:57} INFO - Started process 2809 to run task
+[2023-09-26T12:03:56.076+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', '01-SpaceX', 'ReadingNASAData', 'scheduled__2023-09-03T00:00:00+00:00', '--job-id', '52', '--raw', '--subdir', 'DAGS_FOLDER/01-SpaceX.py', '--cfg-path', '/tmp/tmp8t2ov9sl']
+[2023-09-26T12:03:56.078+0000] {standard_task_runner.py:85} INFO - Job 52: Subtask ReadingNASAData
+[2023-09-26T12:03:56.133+0000] {task_command.py:415} INFO - Running <TaskInstance: 01-SpaceX.ReadingNASAData scheduled__2023-09-03T00:00:00+00:00 [running]> on host b8f985bf58b5
+[2023-09-26T12:03:56.218+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='01-SpaceX' AIRFLOW_CTX_TASK_ID='ReadingNASAData' AIRFLOW_CTX_EXECUTION_DATE='2023-09-03T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-03T00:00:00+00:00'
+[2023-09-26T12:03:56.220+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-09-26T12:03:56.222+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'ls /tmp && head /tmp/response_20230903.txt']
+[2023-09-26T12:03:56.235+0000] {subprocess.py:86} INFO - Output:
+[2023-09-26T12:03:56.238+0000] {subprocess.py:93} INFO - ***tmpiv49o1rk
+[2023-09-26T12:03:56.239+0000] {subprocess.py:93} INFO - history.json
+[2023-09-26T12:03:56.240+0000] {subprocess.py:93} INFO - pymp-9yi0wu8l
+[2023-09-26T12:03:56.241+0000] {subprocess.py:93} INFO - response_20230901.txt
+[2023-09-26T12:03:56.242+0000] {subprocess.py:93} INFO - response_20230902.txt
+[2023-09-26T12:03:56.243+0000] {subprocess.py:93} INFO - response_20230903.txt
+[2023-09-26T12:03:56.243+0000] {subprocess.py:93} INFO - response_20230904.txt
+[2023-09-26T12:03:56.244+0000] {subprocess.py:93} INFO - response_20230905.txt
+[2023-09-26T12:03:56.245+0000] {subprocess.py:93} INFO - response_20230906.txt
+[2023-09-26T12:03:56.245+0000] {subprocess.py:93} INFO - response_20230907.txt
+[2023-09-26T12:03:56.246+0000] {subprocess.py:93} INFO - response_20230908.txt
+[2023-09-26T12:03:56.248+0000] {subprocess.py:93} INFO - response_20230909.txt
+[2023-09-26T12:03:56.248+0000] {subprocess.py:93} INFO - response_20230910.txt
+[2023-09-26T12:03:56.249+0000] {subprocess.py:93} INFO - response_20230911.txt
+[2023-09-26T12:03:56.250+0000] {subprocess.py:93} INFO - response_20230912.txt
+[2023-09-26T12:03:56.251+0000] {subprocess.py:93} INFO - response_20230913.txt
+[2023-09-26T12:03:56.252+0000] {subprocess.py:93} INFO - response_20230914.txt
+[2023-09-26T12:03:56.253+0000] {subprocess.py:93} INFO - response_20230915.txt
+[2023-09-26T12:03:56.253+0000] {subprocess.py:93} INFO - response_20230916.txt
+[2023-09-26T12:03:56.254+0000] {subprocess.py:93} INFO - response_20230917.txt
+[2023-09-26T12:03:56.255+0000] {subprocess.py:93} INFO - response_20230918.txt
+[2023-09-26T12:03:56.256+0000] {subprocess.py:93} INFO - tmpfgysybgv
+[2023-09-26T12:03:56.256+0000] {subprocess.py:93} INFO - OK
+[2023-09-26T12:03:56.257+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-09-26T12:03:56.290+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=01-SpaceX, task_id=ReadingNASAData, execution_date=20230903T000000, start_date=20230926T120356, end_date=20230926T120356
+[2023-09-26T12:03:56.330+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-09-26T12:03:56.363+0000] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-09-26T13:27:01.405+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 01-SpaceX.ReadingNASAData scheduled__2023-09-03T00:00:00+00:00 [queued]>
+[2023-09-26T13:27:01.529+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 01-SpaceX.ReadingNASAData scheduled__2023-09-03T00:00:00+00:00 [queued]>
+[2023-09-26T13:27:01.531+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 3
+[2023-09-26T13:27:01.554+0000] {taskinstance.py:1380} INFO - Executing <Task(BashOperator): ReadingNASAData> on 2023-09-03 00:00:00+00:00
+[2023-09-26T13:27:01.561+0000] {standard_task_runner.py:57} INFO - Started process 224 to run task
+[2023-09-26T13:27:01.564+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', '01-SpaceX', 'ReadingNASAData', 'scheduled__2023-09-03T00:00:00+00:00', '--job-id', '72', '--raw', '--subdir', 'DAGS_FOLDER/01-SpaceX.py', '--cfg-path', '/tmp/tmpurbyc4i6']
+[2023-09-26T13:27:01.568+0000] {standard_task_runner.py:85} INFO - Job 72: Subtask ReadingNASAData
+[2023-09-26T13:27:01.620+0000] {task_command.py:415} INFO - Running <TaskInstance: 01-SpaceX.ReadingNASAData scheduled__2023-09-03T00:00:00+00:00 [running]> on host b8f985bf58b5
+[2023-09-26T13:27:01.879+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='01-SpaceX' AIRFLOW_CTX_TASK_ID='ReadingNASAData' AIRFLOW_CTX_EXECUTION_DATE='2023-09-03T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-03T00:00:00+00:00'
+[2023-09-26T13:27:01.881+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-09-26T13:27:01.888+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'ls /tmp && head /tmp/response_20230903.txt']
+[2023-09-26T13:27:01.903+0000] {subprocess.py:86} INFO - Output:
+[2023-09-26T13:27:01.907+0000] {subprocess.py:93} INFO - ***tmp7zk1ywwm
+[2023-09-26T13:27:01.908+0000] {subprocess.py:93} INFO - history.json
+[2023-09-26T13:27:01.909+0000] {subprocess.py:93} INFO - platzi_data_20230901.csv
+[2023-09-26T13:27:01.910+0000] {subprocess.py:93} INFO - platzi_data_20230902.csv
+[2023-09-26T13:27:01.910+0000] {subprocess.py:93} INFO - pymp-ckakgnj_
+[2023-09-26T13:27:01.911+0000] {subprocess.py:93} INFO - response_20230901.txt
+[2023-09-26T13:27:01.912+0000] {subprocess.py:93} INFO - response_20230902.txt
+[2023-09-26T13:27:01.913+0000] {subprocess.py:93} INFO - response_20230903.txt
+[2023-09-26T13:27:01.913+0000] {subprocess.py:93} INFO - response_20230904.txt
+[2023-09-26T13:27:01.914+0000] {subprocess.py:93} INFO - response_20230905.txt
+[2023-09-26T13:27:01.915+0000] {subprocess.py:93} INFO - response_20230906.txt
+[2023-09-26T13:27:01.916+0000] {subprocess.py:93} INFO - response_20230907.txt
+[2023-09-26T13:27:01.916+0000] {subprocess.py:93} INFO - response_20230908.txt
+[2023-09-26T13:27:01.917+0000] {subprocess.py:93} INFO - response_20230909.txt
+[2023-09-26T13:27:01.918+0000] {subprocess.py:93} INFO - response_20230910.txt
+[2023-09-26T13:27:01.918+0000] {subprocess.py:93} INFO - response_20230911.txt
+[2023-09-26T13:27:01.919+0000] {subprocess.py:93} INFO - response_20230912.txt
+[2023-09-26T13:27:01.920+0000] {subprocess.py:93} INFO - response_20230913.txt
+[2023-09-26T13:27:01.921+0000] {subprocess.py:93} INFO - response_20230914.txt
+[2023-09-26T13:27:01.921+0000] {subprocess.py:93} INFO - response_20230915.txt
+[2023-09-26T13:27:01.922+0000] {subprocess.py:93} INFO - response_20230916.txt
+[2023-09-26T13:27:01.923+0000] {subprocess.py:93} INFO - response_20230917.txt
+[2023-09-26T13:27:01.923+0000] {subprocess.py:93} INFO - response_20230918.txt
+[2023-09-26T13:27:01.924+0000] {subprocess.py:93} INFO - tmpfgysybgv
+[2023-09-26T13:27:01.925+0000] {subprocess.py:93} INFO - OK
+[2023-09-26T13:27:01.925+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-09-26T13:27:01.950+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=01-SpaceX, task_id=ReadingNASAData, execution_date=20230903T000000, start_date=20230926T132701, end_date=20230926T132701
+[2023-09-26T13:27:01.979+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-09-26T13:27:02.017+0000] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

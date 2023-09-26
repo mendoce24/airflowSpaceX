@@ -1,0 +1,16 @@
+[2023-09-25T14:12:03.264+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 01-SpaceX.NASAConfirmation scheduled__2023-09-10T00:00:00+00:00 [queued]>
+[2023-09-25T14:12:03.274+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 01-SpaceX.NASAConfirmation scheduled__2023-09-10T00:00:00+00:00 [queued]>
+[2023-09-25T14:12:03.274+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 3
+[2023-09-25T14:12:03.292+0000] {taskinstance.py:1380} INFO - Executing <Task(BashOperator): NASAConfirmation> on 2023-09-10 00:00:00+00:00
+[2023-09-25T14:12:03.301+0000] {standard_task_runner.py:57} INFO - Started process 909 to run task
+[2023-09-25T14:12:03.307+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', '01-SpaceX', 'NASAConfirmation', 'scheduled__2023-09-10T00:00:00+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/01-SpaceX.py', '--cfg-path', '/tmp/tmplxk5i5ps']
+[2023-09-25T14:12:03.309+0000] {standard_task_runner.py:85} INFO - Job 12: Subtask NASAConfirmation
+[2023-09-25T14:12:03.364+0000] {task_command.py:415} INFO - Running <TaskInstance: 01-SpaceX.NASAConfirmation scheduled__2023-09-10T00:00:00+00:00 [running]> on host b8f985bf58b5
+[2023-09-25T14:12:03.454+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='01-SpaceX' AIRFLOW_CTX_TASK_ID='NASAConfirmation' AIRFLOW_CTX_EXECUTION_DATE='2023-09-10T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-10T00:00:00+00:00'
+[2023-09-25T14:12:03.460+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-09-25T14:12:03.462+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'sleep 20 && echo "OK" >/tmp/response_20230910.txt']
+[2023-09-25T14:12:03.474+0000] {subprocess.py:86} INFO - Output:
+[2023-09-25T14:12:23.501+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-09-25T14:12:23.532+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=01-SpaceX, task_id=NASAConfirmation, execution_date=20230910T000000, start_date=20230925T141203, end_date=20230925T141223
+[2023-09-25T14:12:23.604+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-09-25T14:12:23.677+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check
