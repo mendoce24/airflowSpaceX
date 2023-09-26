@@ -1,0 +1,41 @@
+[2023-09-26T13:27:09.304+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 01-SpaceX.ReportAnalysis scheduled__2023-09-03T00:00:00+00:00 [queued]>
+[2023-09-26T13:27:09.313+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 01-SpaceX.ReportAnalysis scheduled__2023-09-03T00:00:00+00:00 [queued]>
+[2023-09-26T13:27:09.314+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-09-26T13:27:09.328+0000] {taskinstance.py:1380} INFO - Executing <Task(EmailOperator): ReportAnalysis> on 2023-09-03 00:00:00+00:00
+[2023-09-26T13:27:09.335+0000] {standard_task_runner.py:57} INFO - Started process 247 to run task
+[2023-09-26T13:27:09.339+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', '01-SpaceX', 'ReportAnalysis', 'scheduled__2023-09-03T00:00:00+00:00', '--job-id', '77', '--raw', '--subdir', 'DAGS_FOLDER/01-SpaceX.py', '--cfg-path', '/tmp/tmp69x3dn4c']
+[2023-09-26T13:27:09.343+0000] {standard_task_runner.py:85} INFO - Job 77: Subtask ReportAnalysis
+[2023-09-26T13:27:09.392+0000] {task_command.py:415} INFO - Running <TaskInstance: 01-SpaceX.ReportAnalysis scheduled__2023-09-03T00:00:00+00:00 [running]> on host b8f985bf58b5
+[2023-09-26T13:27:09.633+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='01-SpaceX' AIRFLOW_CTX_TASK_ID='ReportAnalysis' AIRFLOW_CTX_EXECUTION_DATE='2023-09-03T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-03T00:00:00+00:00'
+[2023-09-26T13:27:09.644+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/email.py:154: RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+  send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+
+[2023-09-26T13:27:09.645+0000] {configuration.py:1063} WARNING - section/key [smtp/smtp_user] not found in config
+[2023-09-26T13:27:09.646+0000] {email.py:270} INFO - Email alerting: attempt 1
+[2023-09-26T13:27:09.647+0000] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/email.py", line 77, in execute
+    send_email(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/email.py", line 80, in send_email
+    return backend(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/email.py", line 154, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/email.py", line 272, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/email.py", line 317, in _get_smtp_connection
+    return smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/usr/local/lib/python3.8/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/lib/python3.8/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/lib/python3.8/smtplib.py", line 310, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/usr/local/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/local/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+OSError: [Errno 99] Cannot assign requested address
+[2023-09-26T13:27:09.656+0000] {taskinstance.py:1398} INFO - Marking task as FAILED. dag_id=01-SpaceX, task_id=ReportAnalysis, execution_date=20230903T000000, start_date=20230926T132709, end_date=20230926T132709
+[2023-09-26T13:27:09.673+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 77 for task ReportAnalysis ([Errno 99] Cannot assign requested address; 247)
+[2023-09-26T13:27:09.714+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-09-26T13:27:09.733+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

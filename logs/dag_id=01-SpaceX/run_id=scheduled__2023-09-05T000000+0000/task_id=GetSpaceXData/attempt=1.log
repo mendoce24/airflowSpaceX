@@ -1,0 +1,19 @@
+[2023-09-25T14:32:48.456+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 01-SpaceX.GetSpaceXData scheduled__2023-09-05T00:00:00+00:00 [queued]>
+[2023-09-25T14:32:48.468+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 01-SpaceX.GetSpaceXData scheduled__2023-09-05T00:00:00+00:00 [queued]>
+[2023-09-25T14:32:48.469+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 3
+[2023-09-25T14:32:48.486+0000] {taskinstance.py:1380} INFO - Executing <Task(BashOperator): GetSpaceXData> on 2023-09-05 00:00:00+00:00
+[2023-09-25T14:32:48.496+0000] {standard_task_runner.py:57} INFO - Started process 1276 to run task
+[2023-09-25T14:32:48.499+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', '01-SpaceX', 'GetSpaceXData', 'scheduled__2023-09-05T00:00:00+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/01-SpaceX.py', '--cfg-path', '/tmp/tmpd0j_01yi']
+[2023-09-25T14:32:48.501+0000] {standard_task_runner.py:85} INFO - Job 30: Subtask GetSpaceXData
+[2023-09-25T14:32:48.633+0000] {task_command.py:415} INFO - Running <TaskInstance: 01-SpaceX.GetSpaceXData scheduled__2023-09-05T00:00:00+00:00 [running]> on host b8f985bf58b5
+[2023-09-25T14:32:48.732+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='01-SpaceX' AIRFLOW_CTX_TASK_ID='GetSpaceXData' AIRFLOW_CTX_EXECUTION_DATE='2023-09-05T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-05T00:00:00+00:00'
+[2023-09-25T14:32:48.734+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-09-25T14:32:48.736+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', "curl -o /tmp/history.json -L 'https://api.spacexdata.com/v4/history'"]
+[2023-09-25T14:32:48.750+0000] {subprocess.py:86} INFO - Output:
+[2023-09-25T14:32:48.811+0000] {subprocess.py:93} INFO -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+[2023-09-25T14:32:48.812+0000] {subprocess.py:93} INFO -                                  Dload  Upload   Total   Spent    Left  Speed
+[2023-09-25T14:32:49.200+0000] {subprocess.py:93} INFO -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  6756    0  6756    0     0  17367      0 --:--:-- --:--:-- --:--:-- 17367
+[2023-09-25T14:32:49.206+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-09-25T14:32:49.239+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=01-SpaceX, task_id=GetSpaceXData, execution_date=20230905T000000, start_date=20230925T143248, end_date=20230925T143249
+[2023-09-25T14:32:49.277+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-09-25T14:32:49.298+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

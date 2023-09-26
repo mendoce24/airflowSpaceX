@@ -1,0 +1,45 @@
+[2023-09-26T13:26:01.641+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 01-SpaceX.ReadSatelliteResponse scheduled__2023-09-01T00:00:00+00:00 [queued]>
+[2023-09-26T13:26:01.652+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 01-SpaceX.ReadSatelliteResponse scheduled__2023-09-01T00:00:00+00:00 [queued]>
+[2023-09-26T13:26:01.653+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 3
+[2023-09-26T13:26:01.668+0000] {taskinstance.py:1380} INFO - Executing <Task(BashOperator): ReadSatelliteResponse> on 2023-09-01 00:00:00+00:00
+[2023-09-26T13:26:01.678+0000] {standard_task_runner.py:57} INFO - Started process 164 to run task
+[2023-09-26T13:26:01.681+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', '01-SpaceX', 'ReadSatelliteResponse', 'scheduled__2023-09-01T00:00:00+00:00', '--job-id', '62', '--raw', '--subdir', 'DAGS_FOLDER/01-SpaceX.py', '--cfg-path', '/tmp/tmpepwn4xd4']
+[2023-09-26T13:26:01.686+0000] {standard_task_runner.py:85} INFO - Job 62: Subtask ReadSatelliteResponse
+[2023-09-26T13:26:01.746+0000] {task_command.py:415} INFO - Running <TaskInstance: 01-SpaceX.ReadSatelliteResponse scheduled__2023-09-01T00:00:00+00:00 [running]> on host b8f985bf58b5
+[2023-09-26T13:26:02.031+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='01-SpaceX' AIRFLOW_CTX_TASK_ID='ReadSatelliteResponse' AIRFLOW_CTX_EXECUTION_DATE='2023-09-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-01T00:00:00+00:00'
+[2023-09-26T13:26:02.033+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-09-26T13:26:02.040+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'ls /tmp && head /tmp/platzi_data_20230901.csv']
+[2023-09-26T13:26:02.057+0000] {subprocess.py:86} INFO - Output:
+[2023-09-26T13:26:02.061+0000] {subprocess.py:93} INFO - ***tmps07cbfy1
+[2023-09-26T13:26:02.062+0000] {subprocess.py:93} INFO - history.json
+[2023-09-26T13:26:02.063+0000] {subprocess.py:93} INFO - platzi_data_20230901.csv
+[2023-09-26T13:26:02.064+0000] {subprocess.py:93} INFO - pymp-ckakgnj_
+[2023-09-26T13:26:02.065+0000] {subprocess.py:93} INFO - response_20230901.txt
+[2023-09-26T13:26:02.066+0000] {subprocess.py:93} INFO - response_20230902.txt
+[2023-09-26T13:26:02.067+0000] {subprocess.py:93} INFO - response_20230903.txt
+[2023-09-26T13:26:02.068+0000] {subprocess.py:93} INFO - response_20230904.txt
+[2023-09-26T13:26:02.069+0000] {subprocess.py:93} INFO - response_20230905.txt
+[2023-09-26T13:26:02.069+0000] {subprocess.py:93} INFO - response_20230906.txt
+[2023-09-26T13:26:02.070+0000] {subprocess.py:93} INFO - response_20230907.txt
+[2023-09-26T13:26:02.071+0000] {subprocess.py:93} INFO - response_20230908.txt
+[2023-09-26T13:26:02.072+0000] {subprocess.py:93} INFO - response_20230909.txt
+[2023-09-26T13:26:02.074+0000] {subprocess.py:93} INFO - response_20230910.txt
+[2023-09-26T13:26:02.075+0000] {subprocess.py:93} INFO - response_20230911.txt
+[2023-09-26T13:26:02.076+0000] {subprocess.py:93} INFO - response_20230912.txt
+[2023-09-26T13:26:02.077+0000] {subprocess.py:93} INFO - response_20230913.txt
+[2023-09-26T13:26:02.077+0000] {subprocess.py:93} INFO - response_20230914.txt
+[2023-09-26T13:26:02.078+0000] {subprocess.py:93} INFO - response_20230915.txt
+[2023-09-26T13:26:02.079+0000] {subprocess.py:93} INFO - response_20230916.txt
+[2023-09-26T13:26:02.080+0000] {subprocess.py:93} INFO - response_20230917.txt
+[2023-09-26T13:26:02.080+0000] {subprocess.py:93} INFO - response_20230918.txt
+[2023-09-26T13:26:02.081+0000] {subprocess.py:93} INFO - tmpfgysybgv
+[2023-09-26T13:26:02.082+0000] {subprocess.py:93} INFO - ,student,timestamp
+[2023-09-26T13:26:02.083+0000] {subprocess.py:93} INFO - 0,Maria Cruz,2023-09-01 00:00:00+00:00
+[2023-09-26T13:26:02.084+0000] {subprocess.py:93} INFO - 1,Daniel Crema,2023-09-01 00:00:00+00:00
+[2023-09-26T13:26:02.085+0000] {subprocess.py:93} INFO - 2,Elon Musk,2023-09-01 00:00:00+00:00
+[2023-09-26T13:26:02.086+0000] {subprocess.py:93} INFO - 3,Karol Castrejon,2023-09-01 00:00:00+00:00
+[2023-09-26T13:26:02.087+0000] {subprocess.py:93} INFO - 4,Freddy Vega,2023-09-01 00:00:00+00:00
+[2023-09-26T13:26:02.088+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-09-26T13:26:02.117+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=01-SpaceX, task_id=ReadSatelliteResponse, execution_date=20230901T000000, start_date=20230926T132601, end_date=20230926T132602
+[2023-09-26T13:26:02.176+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-09-26T13:26:02.200+0000] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check
